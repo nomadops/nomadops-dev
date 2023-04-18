@@ -199,12 +199,12 @@ footer{
   }
  }
  
-  @media (min-width: 1300px) {
+  /* @media (min-width: 1300px) {
    
      .bg-shape2{
     top: -600px;
    }
- }
+ } */
 
  /* Styles for logo animation  */
 .img-logo{
