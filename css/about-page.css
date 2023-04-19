@@ -1,21 +1,11 @@
 
 
-/* html{
-
-    width: 100%;
-    max-width: 100%;
-    overflow-x: hidden;
-} */
-
-  body
+body
   {
-    scroll-behavior: smooth;
     width: 100%;
     max-width: 100%;
     overflow-x: hidden;
   }
-
-
 
 .about-us{
     margin-top: 150px;
@@ -56,9 +46,9 @@ h1{
     top: -39vw;
 }
 .friends-wrapper{
-     position: absolute;
+     position: relative;
      z-index: 2;
-     top: 20vw;
+     top: -45vw;
   
 }
 .section.animate {
