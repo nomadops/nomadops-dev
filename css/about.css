@@ -118,7 +118,7 @@ textarea{
   width: 100%;
 }
 .card{
-   border: 1px solid #c8c8c8;
+   /* border: 1px solid #c8c8c8; */
   border-radius: 10px;
   box-shadow: 0 1.5rem 4rem rgba(22,28,45,.05)!important;
 }
@@ -155,6 +155,9 @@ footer{
   opacity: 0;
   transform: translateX(-50px);
 }
+.card-project{
+   border: none!important;
+}
  @media (max-width: 479px) {
     .services-wrapper{
     display: block;
@@ -168,12 +171,15 @@ footer{
   margin: 0 auto;
   }
   .card {
+   
     margin-bottom: 10px!important;
      margin: 10px auto!important;
      width: 100%!important;
   }
   .card-project{
     width: 100%;
+      
+    
   }
   .form{
   width: 100%;
@@ -187,7 +193,7 @@ footer{
   }
   .card{
  margin-bottom: 10px!important;
-     margin: 10px auto!important;
+     /* margin: 10px auto!important; */
      width: 100%;
   }
   .card-project{
